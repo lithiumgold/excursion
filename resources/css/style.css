@@ -1,9 +1,9 @@
-/* Base styling */
+/* Base page styling */
 body {
   background-color: black;
   color: white;
-  text-align: center;
   font-family: Verdana, sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -12,23 +12,25 @@ body {
 h1 {
   font-size: 50px;
   font-weight: normal;
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-size: 42px;
   font-weight: 300;
   margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 /* Paragraphs */
 .description {
   font-size: 21px;
   color: gray;
-  margin: 10px 0 50px 0;
+  margin-bottom: 40px;
 }
 
-/* CTA link */
+/* Call-to-action links */
 .cta-link {
   color: aquamarine;
   font-size: 16px;
@@ -39,27 +41,30 @@ h2 {
   text-decoration: underline;
 }
 
-/* Video and images */
+/* Video and phone image */
 .hero-video {
-  width: 400px;
-  max-width: 90%;
-  margin-top: 30px;
-  border-radius: 8px;
+  width: 320px;
+  max-width: 80%;
+  border-radius: 10px;
+  display: block;
+  margin: 40px auto 0 auto;
 }
 
 .phone-img {
+  width: 320px;
+  max-width: 80%;
   display: block;
-  margin: -450px auto 0 auto;
-  width: 300px;
-  position: relative;
+  margin: -460px auto 0 auto;
   z-index: 1;
+  position: relative;
 }
 
+/* Travel guide image */
 .camp-img {
   width: 80%;
   max-width: 800px;
-  margin: 50px auto;
   display: block;
+  margin: 40px auto;
   border-radius: 8px;
 }
 
@@ -69,14 +74,14 @@ h2 {
 }
 
 .phone-icon {
-  width: 40px;
+  width: 50px;
   margin-bottom: 20px;
 }
 
 /* Footer */
 footer {
-  color: gray;
   text-align: right;
+  color: gray;
   font-size: 14px;
-  margin: 20px 40px;
+  margin: 40px 40px 20px 0;
 }
