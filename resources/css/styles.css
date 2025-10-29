@@ -1,0 +1,87 @@
+/* Base page styling */
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.description {
+  font-size: 21px;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+/* Call-to-action links */
+.cta-link {
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
+
+/* Video and phone image */
+.hero-video {
+  width: 320px;
+  max-width: 80%;
+  border-radius: 10px;
+  display: block;
+  margin: 40px auto 0 auto;
+}
+
+.phone-img {
+  width: 320px;
+  max-width: 80%;
+  display: block;
+  margin: -460px auto 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+/* Travel guide image */
+.camp-img {
+  width: 80%;
+  max-width: 800px;
+  display: block;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
+/* Coming soon section */
+.coming-soon {
+  margin-top: 80px;
+}
+
+.phone-icon {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  color: gray;
+  font-size: 14px;
+  margin: 40px 40px 20px 0;
+}
