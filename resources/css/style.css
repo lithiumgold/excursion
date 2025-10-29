@@ -1,0 +1,82 @@
+/* Base styling */
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+  margin-top: 60px;
+}
+
+/* Paragraphs */
+.description {
+  font-size: 21px;
+  color: gray;
+  margin: 10px 0 50px 0;
+}
+
+/* CTA link */
+.cta-link {
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
+
+/* Video and images */
+.hero-video {
+  width: 400px;
+  max-width: 90%;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.phone-img {
+  display: block;
+  margin: -450px auto 0 auto;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.camp-img {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Coming soon section */
+.coming-soon {
+  margin-top: 80px;
+}
+
+.phone-icon {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  color: gray;
+  text-align: right;
+  font-size: 14px;
+  margin: 20px 40px;
+}
